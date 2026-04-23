@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000; /* Signature OVO Black */
+    color: #fff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px 50px;
+    background: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+   .logo {
+    width: 100px;         /* Adjust this to your desired size */
+    height: auto;        /* Keeps the image from stretching */
+    position: absolute;  /* Removes it from the normal page flow */
+    top: 10px;           /* Distance from the top edge */
+    left: 10px;          /* Distance from the left edge */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Ovo', serif;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+/* Container to center the button */
+.awards-container {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* OVO Inspired Gold/Black Button */
+.btn-crystal {
+    display: inline-block;
+    background-color: #000; /* Black background */
+    color: #d4af37;        /* Gold text */
+    padding: 18px 45px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #d4af37; /* Gold border */
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-crystal:hover {
+    background-color: #d4af37;
+    color: #000;
+    transform: scale(1.05); /* Slight grow effect */
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 12px 35px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #d4af37; /* Gold accent */
+}
+.shop-container {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.shop-title {
+    font-family: 'Ovo', serif;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    border: 1px solid #eee;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    border-color: #000;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    background-color: #f9f9f9; /* Placeholder background */
+}
+
+.product-card h3 {
+    font-size: 14px;
+    margin: 15px 0 5px;
+    text-transform: uppercase;
+}
+
+.price {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.buy-btn {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #d4af37; /* OVO Gold */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    font-size: 0.9rem;
+}
